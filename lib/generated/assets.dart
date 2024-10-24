@@ -3,7 +3,10 @@ class Assets {
   Assets._();
 
   static const String assetsIconsMainLogo = 'assets/icons/main_logo.svg';
-  static const String iconsAking = 'assets/icons/aking.png';
   static const String iconsMainLogo = 'assets/icons/main_logo.png';
+  static const String imagesIntroBg = 'assets/images/intro_bg.svg';
+  static const String imagesIntroImg1 = 'assets/images/intro_img1.svg';
+  static const String imagesIntroImg2 = 'assets/images/intro_img2.svg';
+  static const String imagesIntroImg3 = 'assets/images/intro_img3.svg';
 
 }
