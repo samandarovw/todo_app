@@ -20,7 +20,7 @@ class _IntroPageState extends State<IntroPage> {
           SizedBox(height: 20,),
           Text("Welcome to aking",style: TextStyle(fontSize: 24,color: Colors.black),),
 
-          SizedBox(height: 20,),
+          SizedBox(height: 10,),
           Text("Whats going to happen tomorrow?",style: TextStyle(fontSize: 18,color: Color(0xff313131)),)
         ],
       ),
@@ -33,7 +33,7 @@ class _IntroPageState extends State<IntroPage> {
           SizedBox(height: 20,),
           Text("Work happens",style: TextStyle(fontSize: 24,color: Colors.black),),
 
-          SizedBox(height: 20,),
+          SizedBox(height: 10,),
           Text("Get notified when work happens.",style: TextStyle(fontSize: 18,color: Color(0xff313131)),)
         ],
       ),
@@ -46,7 +46,7 @@ class _IntroPageState extends State<IntroPage> {
           SizedBox(height: 20,),
           Text("Tasks and assign",style: TextStyle(fontSize: 24,color: Colors.black),),
 
-          SizedBox(height: 20,),
+          SizedBox(height: 10,),
           Text("Task and assign them to colleagues.",style: TextStyle(fontSize: 18,color: Color(0xff313131)),)
         ],
       ),
@@ -99,8 +99,10 @@ class _IntroPageState extends State<IntroPage> {
 
           });
         },
-        done: Text("Let's go"),
-        onDone: (){},
+        allowImplicitScrolling: false,
+        showDoneButton: false,
+
+        hideBottomOnKeyboard: true,
       ),
     );
   }
