@@ -8,5 +8,6 @@ class Assets {
   static const String imagesIntroImg1 = 'assets/images/intro_img1.svg';
   static const String imagesIntroImg2 = 'assets/images/intro_img2.svg';
   static const String imagesIntroImg3 = 'assets/images/intro_img3.svg';
-
+  static const String imagesSuccessfulChange =
+      'assets/images/succesfull_change.svg';
 }
